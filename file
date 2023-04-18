@@ -4,6 +4,7 @@ Polymorphism
 
 1. What does the word 'polymorphism' mean?
 In computing Polymorphism is the provision of a single interface to entities of different types.
+It comes from the Greek words, 'poly' meaning many and 'morph' meaning change.
 
 2. What does it mean when we apply polymorphism to OO design?
 In Java OOP Polymorphism is the ability for an object to be handled as more than one class type. 
