@@ -34,7 +34,10 @@ Composition and aggregation are similar but in aggregation objects can be instan
 For example a Kitchen class may have a Fridge class within it's parameters. A Fridge object can be instantiated separately but a Kitchen also 'has_a' Fridge. 
 
 9. What is/are the advantage(s) of using composition/aggregation?
+Composition/Aggregation allows classes to remain small in scope and have appropriate methods tied to them. It also allows for objects to be swapped out quite easily.
 
 10. When using composition, when an object is destroyed, what happens to all the objects it is composed of?
+All of the obects will be destroyed.
 
 11. When using aggregation, when an object is destroyed, what happens to all the objects it is composed of?
+In aggregation, when an object is destroyed, the objects that it is composed of may not necessarily be destroyed. 
