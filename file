@@ -3,22 +3,35 @@ Polymorphism & Composition Homework - Quiz
 Polymorphism
 
 1. What does the word 'polymorphism' mean?
+In computing Polymorphism is the provision of a single interface to entities of different types.
 
 2. What does it mean when we apply polymorphism to OO design?
+In Java OOP Polymorphism is the ability for an object to be handled as more than one class. 
 
 3. What can we use to implement polymorphism in Java?
+Polymorphism occurs when a sub class inherits (extends) from a super class and also when a class implements an interface.
 
 4. How many 'forms' can an object take when using polymorphism?
+An object can have many forms when using polymorphism. The 'instanceof' operator can be used to test whether or not an object has a specific form.
 
 5. Give an example of when you could use polymorphism.
+If you were modelling a farm then there may be classes for the various animals (Pig, Duck, Cow, Chicken etc.).
+These classes could all inherit properties and methods from a single parent class (Animal).
+The Farm class may have an ArrayList of animals (ArrayList<Animal>) which contained the various pig, duck, cow and chicken objects.
+These animals not only have their own class but polymorphism allows them to use their shared parent class, Animal, too so they can be stored within the ArrayList.
 
 Composition and Aggregation
 
 6. What do we mean by 'composition' in reference to object-oriented programming?
+Composition in OOP represents an 'is_part_of' relationship. Composition involves using other classes to build more complex classes. 
 
 7. When would you use composition? Provide a simple example in Java.
+An example of composition would be a class, 'CoffeeGrinder', including another class, 'Blade' within the composition of the CoffeeGrinder class. 
+Blade cannot be instantiated as an independent object. The Blade class can have it's own properties and methods. 
 
 8. Give a difference between composition and aggregation?
+Composition and aggregation are similar but in aggregation objects can be instantiated. Aggregation represents a 'has_a' relationship.
+For example a Kitchen class may have a Fridge class within it's parameters. A Fridge object can be instantiated separately but a Kitchen also 'has_a' Fridge. 
 
 9. What is/are the advantage(s) of using composition/aggregation?
 
