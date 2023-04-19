@@ -28,10 +28,10 @@ Composition in OOP represents an 'is_part_of' relationship. Composition involves
 
 7. When would you use composition? Provide a simple example in Java.
 An example of composition would be a class, 'CoffeeGrinder', including another class, 'Blade' within the composition of the CoffeeGrinder class. 
-Blade cannot be instantiated as an independent object. The Blade class can have it's own properties and methods. 
+The Blade class can have it's own properties and methods. Blade exists within the class.
 
 8. Give a difference between composition and aggregation?
-Composition and aggregation are similar but in aggregation objects can be instantiated. Aggregation represents a 'has_a' relationship.
+Composition and aggregation are similar but in aggregation objects can be instantiated outside of the parent class. Aggregation represents a 'has_a' relationship.
 For example a Kitchen class may have a Fridge class within it's parameters. A Fridge object can be instantiated separately but a Kitchen also 'has_a' Fridge. 
 
 9. What is/are the advantage(s) of using composition/aggregation?
